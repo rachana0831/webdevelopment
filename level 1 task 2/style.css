@@ -1,0 +1,186 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7fa;
+  color: #2e2e2e;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+
+header {
+  background-color: #222;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  font-size: 1rem;
+  margin-top: 10px;
+  font-style: italic;
+  color: #bbbbbb;
+}
+
+#about {
+  background-color: #f0d9d9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.bio h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.bio p {
+  font-size: 1rem;
+  color: #666666;
+}
+
+
+#skills {
+  background-color: #fafafa;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #ff7b7b;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background-color: #32db47;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #fbdede;
+  padding: 60px 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background-color: #f88ebc;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.project p {
+  font-size: 0.9rem;
+  color: #1a1a1a;
+}
+
+#resume {
+  background-color: #f4d4d4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #2bc639;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #24942d;
+}
+
+#contact {
+  background-color: #fdeaea;
+  padding: 60px 0;
+  text-align: center;
+}
+
+form {
+  max-width: 580px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer {
+  background-color: #222;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 0.85rem;
+}
